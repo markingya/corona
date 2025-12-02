@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
-    <div className="bg-[url('./Images/redcheck.jpg')] min-h-screen bg-cover bg-center bg-no-repeat">
+    <div className="bg-[url('/Images/redcheck.jpg')] min-h-screen bg-cover bg-center bg-no-repeat">
       <div className="flex flex-col gap-15 items-center py-15 px-5">
        
           <div className="bg-gray-50 lg:max-w-4xl md:max-w-xl max-w-sm w-full p-5 md:p-8 rounded-2xl border-4 border-cred ring-2 ring-black/8 relative">
