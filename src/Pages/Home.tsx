@@ -30,12 +30,18 @@ const Home = () => {
         </Link>
        </div>
         
+        
+        <img src="/Images/coronaKids.jpg" alt="Old Corona Kids" className="lg:max-w-lg md:max-w-md lg:my-5 ring-3 ring-black/10 max-w-xs w-full rounded-2xl border-6 md:border-10 rotate-5 border-white"/>
+        
         <div className="flex-1">
-          <img src="/Images/coronaKids.jpg" alt="Old Corona Kids" className="lg:max-w-lg md:max-w-md lg:my-5 ring-3 ring-black/10 max-w-xs w-full rounded-2xl border-6 md:border-10 rotate-5 border-white"/>
+          <Link to="/directory">
+            <button className="bg-[#FF3838] font-sticker font-bold border-white ring-2  ring-black/10 border-5 py-3 px-5 rounded-xl lg:text-lg text-sm text-white cursor-pointer">Sign in</button>
+          </Link>
         </div>
+        
 
         <Link to="/join">
-        <button className="bg-indigo-700 font-sticker font-bold border-white border-5 ring-2 ring-black/10 py-3 px-5 rounded-xl lg:text-lg text-sm text-white cursor-pointer">Made with ❤️ by Kundu Ingya</button>
+        <button className="bg-indigo-700 font-sticker font-bold -rotate-5 border-white border-5 ring-2 ring-black/10 py-3 px-5 rounded-xl lg:text-lg text-sm text-white cursor-pointer">Made with ❤️ by Kundu Ingya</button>
         </Link>
 
       </div>
