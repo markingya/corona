@@ -1,4 +1,3 @@
-import MemberForm from "../Components/MemberForm"
 
 const Join = () => {
   return (
