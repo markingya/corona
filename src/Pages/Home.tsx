@@ -41,7 +41,7 @@ const Home = () => {
         
 
         <Link to="/join">
-        <button className="bg-indigo-700 font-sticker font-bold -rotate-5 border-white border-5 ring-2 ring-black/10 py-3 px-5 rounded-xl lg:text-lg text-sm text-white cursor-pointer">Made with ❤️ by Kundu Ingya</button>
+        <button className="bg-indigo-700 font-sticker font-bold border-white border-5 ring-2 ring-black/10 py-3 px-5 rounded-xl lg:text-lg text-sm text-white cursor-pointer">Made with ❤️ by Kundu Ingya</button>
         </Link>
 
       </div>
